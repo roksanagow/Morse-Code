@@ -68,6 +68,8 @@ def getMorseCode(node, character, code):
 #Message Input
 def lettersToCode():
   message = input("Enter a message to convert into Morse Code: (e.g. SOS)").upper()
+#TODO - doesnt work for multiple spaces, or any other exceptions
+
   morseCode = ""
 
   #Convert the message, one character at a time!
@@ -108,6 +110,7 @@ def main():
 
 main()
     
+
 
         
     
